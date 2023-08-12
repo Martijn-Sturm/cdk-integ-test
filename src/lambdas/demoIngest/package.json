@@ -1,0 +1,22 @@
+{
+  "name": "demo-ingest",
+  "version": "1.0.0",
+  "description": "item ingestion lambda",
+  "author": "Martijn Sturm",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-lambda-powertools/logger": "^1.11.0",
+    "@aws-sdk/client-dynamodb": "^3.369.0",
+    "@aws-sdk/lib-dynamodb": "^3.369.0",
+    "aws-lambda": "^1.0.7"
+  },
+  "scripts": {
+    "build": "yarn generate-lock-entry > yarn.lock",
+    "test": "npx jest"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.119",
+    "esbuild": "^0.19.2",
+    "ts-jest": "^29.1.1"
+  }
+}
